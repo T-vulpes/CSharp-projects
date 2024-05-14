@@ -1,0 +1,9 @@
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication4\ConsoleApplication4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication4\ConsoleApplication4\obj\x86\Debug\ConsoleApplication4.exe
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication4\ConsoleApplication4\obj\x86\Debug\ConsoleApplication4.pdb
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication4\ConsoleApplication4\obj\x86\Debug\ConsoleApplication4.exe
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication4\ConsoleApplication4\obj\x86\Debug\ConsoleApplication4.pdb
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb

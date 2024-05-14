@@ -1,0 +1,4 @@
+c:\users\acer\documents\visual studio 2010\Projects\ConsoleApplication25\ConsoleApplication25\bin\Debug\ConsoleApplication25.exe
+c:\users\acer\documents\visual studio 2010\Projects\ConsoleApplication25\ConsoleApplication25\bin\Debug\ConsoleApplication25.pdb
+c:\users\acer\documents\visual studio 2010\Projects\ConsoleApplication25\ConsoleApplication25\obj\x86\Debug\ConsoleApplication25.exe
+c:\users\acer\documents\visual studio 2010\Projects\ConsoleApplication25\ConsoleApplication25\obj\x86\Debug\ConsoleApplication25.pdb

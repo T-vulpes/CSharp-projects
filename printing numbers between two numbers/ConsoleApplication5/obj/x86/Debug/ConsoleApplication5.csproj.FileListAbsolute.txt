@@ -1,0 +1,9 @@
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication5\ConsoleApplication5\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication5\ConsoleApplication5\obj\x86\Debug\ConsoleApplication5.exe
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication5\ConsoleApplication5\obj\x86\Debug\ConsoleApplication5.pdb
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication5\ConsoleApplication5\obj\x86\Debug\ConsoleApplication5.exe
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication5\ConsoleApplication5\obj\x86\Debug\ConsoleApplication5.pdb
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb

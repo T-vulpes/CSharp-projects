@@ -1,0 +1,10 @@
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication6\ConsoleApplication6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.pdb
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication6\ConsoleApplication6\obj\x86\Debug\ConsoleApplication6.exe
+C:\Users\lab\Desktop\ikisayiyitopla1\ConsoleApplication6\ConsoleApplication6\obj\x86\Debug\ConsoleApplication6.pdb
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication6\ConsoleApplication6\obj\x86\Debug\ConsoleApplication6.exe
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication6\ConsoleApplication6\obj\x86\Debug\ConsoleApplication6.pdb
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.pdb
+C:\Users\ACER\Desktop\ödev birleştir hespini\ConsoleApplication6\ConsoleApplication6\obj\x86\Debug\ConsoleApplication6.csprojResolveAssemblyReference.cache
