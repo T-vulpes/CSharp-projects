@@ -9,10 +9,8 @@ namespace basic_hangmanGame
         {
             List<string> words = new List<string>
             {
-                // Animals
                 "elephant", "giraffe", "kangaroo", "leopard", "penguin", "alligator", "crocodile",
                 "flamingo", "hippopotamus", "jaguar", "ostrich", "rhinoceros", "squirrel", "zebra",
-                // Countries
                 "argentina", "brazil", "canada", "denmark", "egypt", "france", "germany",
                 "hungary", "india", "japan", "kenya", "luxembourg", "mexico", "netherlands",
                 "portugal", "qatar", "romania", "sweden", "turkey", "uruguay", "vietnam"
