@@ -9,7 +9,6 @@ namespace ConsoleApplication6
     {
         static void Main(string[] args)
         {
-            //klavyeden girilen sayının faktöriyel cinsinden bulan program
             Console.WriteLine("klavyeden girilen sayının faktöriyel cinsinden bulan program!");
             Console.WriteLine("-----------------------------------------------------------");
             int i, sayi, fakt = 1;
