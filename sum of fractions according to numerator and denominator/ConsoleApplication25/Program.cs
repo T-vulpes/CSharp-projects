@@ -29,10 +29,10 @@ namespace ConsoleApplication25
             }
             else
                   {
-            a3=a2*b2; //paydası
-           a4=a1*b2;//pay
+            a3=a2*b2; 
+           a4=a1*b2;
             b3=a2*b2;
-             b4=b1*a2; //pay
+             b4=b1*a2; 
   c1=a4+b4;
                      Console.ForegroundColor = ConsoleColor.White;
                      Console.BackgroundColor = ConsoleColor.Blue;
