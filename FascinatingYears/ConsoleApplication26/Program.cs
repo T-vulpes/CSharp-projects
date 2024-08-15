@@ -32,7 +32,6 @@ namespace FascinatingYears
             int hundreds = (year / 100) % 10;
             int thousands = year / 1000;
 
-            // Checking if the first two digits are equal and the third digit is different.
             return (ones == tens && hundreds == thousands && ones != hundreds);
         }
     }
