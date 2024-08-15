@@ -9,7 +9,6 @@ namespace ConsoleApplication15
     {
         static void Main(string[] args)
         {
-            //klavyeden girilen 2 sayının arasından kalan sayıların toplamını yazdır
             Console.WriteLine("klavyeden girilen 2 sayının arasında ki sayıların toplamını yazdıran program!");
             Console.WriteLine("-----------------------------------------------------------------------------");
             int sayi1, sayi2, toplam = 0;
