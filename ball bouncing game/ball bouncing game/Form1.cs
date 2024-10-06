@@ -29,15 +29,13 @@ namespace ball_bouncing_game
 
             if (isFalling)
             {
-                balpic.Top += ballSpeed;  // Move the ball downwards
-
-                // If the ball reaches the bottom of the girl picture, stop the game
+                balpic.Top += ballSpeed;  
                 if (balpic.Top >= girlpic.Bottom - balpic.Height)
                 {
-                    timer1.Stop();  // Stop the timer
+                    timer1.Stop();  
                     label1.Text = $"Game Over! The ball bounced {bounceCount} times.";
-                    isGameStarted = false;  // The game has ended
-                    isGameOver = true;  // Activate game over check
+                    isGameStarted = false;  
+                    isGameOver = true;  
                     return;
                 }
             }
