@@ -5,11 +5,11 @@ namespace ball_bouncing_game
 {
     public partial class Form1 : Form
     {
-        private int bounceCount = 0;  // Counter for the number of bounces
-        private int ballSpeed = 8;     // Speed at which the ball moves
-        private bool isFalling = true; // Flag to check if the ball is falling
-        private bool isGameStarted = false; // To track if the game has started
-        private bool isGameOver = false; // To check if the game is over
+        private int bounceCount = 0;  
+        private int ballSpeed = 8;    
+        private bool isFalling = true; 
+        private bool isGameStarted = false; 
+        private bool isGameOver = false; 
 
         public Form1()
         {
@@ -18,17 +18,15 @@ namespace ball_bouncing_game
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            balpic.Visible = false;  // Hide the ball until the game starts
-            label1.Text = "Press SPACE to start";  // Initial message
-            textBox2.Text = "0";  // Clear the bounce count display
+            balpic.Visible = false; 
+            label1.Text = "Press SPACE to start";  
+            textBox2.Text = "0"; 
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            // If the game is over, do not move the ball
             if (isGameOver) return;
 
-            // If the ball is falling
             if (isFalling)
             {
                 balpic.Top += ballSpeed;  // Move the ball downwards
