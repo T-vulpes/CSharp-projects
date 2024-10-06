@@ -80,12 +80,11 @@ namespace ball_bouncing_game
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Stop the game
             timer1.Stop();
-            balpic.Visible = false;  // Hide the ball
+            balpic.Visible = false; 
             label1.Text = $"Game Stopped. You bounced the ball {bounceCount} times.";
             isGameStarted = false;
-            isGameOver = true;  // Mark the game as over when stopped
+            isGameOver = true;  
         }
     }
 }
