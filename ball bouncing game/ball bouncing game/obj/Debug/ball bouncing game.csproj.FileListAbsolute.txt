@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\ball bouncing game\ball bouncing game\bin\Debug\ball bouncing game.exe.config
+C:\Users\admin\source\repos\ball bouncing game\ball bouncing game\bin\Debug\ball bouncing game.exe
+C:\Users\admin\source\repos\ball bouncing game\ball bouncing game\bin\Debug\ball bouncing game.pdb
+C:\Users\admin\source\repos\ball bouncing game\ball bouncing game\obj\Debug\ball bouncing game.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\ball bouncing game\ball bouncing game\obj\Debug\ball_bouncing_game.Form1.resources
+C:\Users\admin\source\repos\ball bouncing game\ball bouncing game\obj\Debug\ball_bouncing_game.Properties.Resources.resources
+C:\Users\admin\source\repos\ball bouncing game\ball bouncing game\obj\Debug\ball bouncing game.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\ball bouncing game\ball bouncing game\obj\Debug\ball bouncing game.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\ball bouncing game\ball bouncing game\obj\Debug\ball bouncing game.exe
+C:\Users\admin\source\repos\ball bouncing game\ball bouncing game\obj\Debug\ball bouncing game.pdb
