@@ -41,17 +41,15 @@ namespace ball_bouncing_game
             }
             else
             {
-                balpic.Top -= ballSpeed;  // Move the ball upwards
+                balpic.Top -= ballSpeed;  
 
-                // If the ball reaches the top limit, let it fall back
-                if (balpic.Top <= 50)  // Set the upper limit
+                if (balpic.Top <= 50)  
                 {
                     isFalling = true;
                 }
             }
         }
 
-        // Spacebar key press event handler
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             if (keyData == Keys.Space && isGameStarted && !isGameOver)
