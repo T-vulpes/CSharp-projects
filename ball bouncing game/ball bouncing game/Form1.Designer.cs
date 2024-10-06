@@ -81,37 +81,26 @@
             this.label2.Size = new System.Drawing.Size(301, 29);
             this.label2.TabIndex = 5;
             this.label2.Text = "Number of bounced balls : ";
-            // 
-            // textBox2
-            // 
+
             this.textBox2.Location = new System.Drawing.Point(88, 302);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(148, 26);
             this.textBox2.TabIndex = 7;
-            // 
-            // labelTime
-            // 
+
             this.labelTime.AutoSize = true;
             this.labelTime.Location = new System.Drawing.Point(722, 20);
             this.labelTime.Name = "labelTime";
             this.labelTime.Size = new System.Drawing.Size(0, 20);
             this.labelTime.TabIndex = 8;
-            // 
-            // textBox1
-            // 
+            
             this.textBox1.BackColor = System.Drawing.Color.OliveDrab;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Location = new System.Drawing.Point(319, 351);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(471, 19);
             this.textBox1.TabIndex = 9;
-            // 
-            // timer1
-            // 
+
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // Form1
-            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
@@ -137,7 +126,6 @@
         }
 
         #endregion
-
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox girlpic;
