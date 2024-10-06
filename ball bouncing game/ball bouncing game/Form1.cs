@@ -67,15 +67,14 @@ namespace ball_bouncing_game
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Start the game
             isGameStarted = true;
-            isGameOver = false;  // Ensure the game is not marked as over when starting again
-            bounceCount = 0;  // Reset bounce count
-            balpic.Visible = true;  // Show the ball
-            balpic.Top = 50;  // Set initial position
-            isFalling = true;  // Start the ball falling
-            timer1.Start();  // Start the timer
-            label1.Text = "";  // Clear the on-screen message
+            isGameOver = false;  
+            bounceCount = 0;  
+            balpic.Visible = true; 
+            balpic.Top = 50;  
+            isFalling = true;  
+            timer1.Start();  
+            label1.Text = "";  
         }
 
         private void button2_Click(object sender, EventArgs e)
