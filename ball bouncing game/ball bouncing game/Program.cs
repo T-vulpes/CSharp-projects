@@ -9,7 +9,6 @@ namespace ball_bouncing_game
     static class Program
     {
         /// <summary>
-        /// Uygulamanın ana girdi noktası.
         /// </summary>
         [STAThread]
         static void Main()
