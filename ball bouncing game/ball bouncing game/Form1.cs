@@ -54,10 +54,10 @@ namespace ball_bouncing_game
         {
             if (keyData == Keys.Space && isGameStarted && !isGameOver)
             {
-                bounceCount++;  // Increment bounce count
-                textBox2.Text = bounceCount.ToString();  // Update the bounce count display
+                bounceCount++;  
+                textBox2.Text = bounceCount.ToString();  
 
-                isFalling = false;  // Reverse the ball's direction
+                isFalling = false;  
                 return true;
             }
             return base.ProcessCmdKey(ref msg, keyData);
