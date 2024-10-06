@@ -26,7 +26,6 @@ namespace ball_bouncing_game
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (isGameOver) return;
-
             if (isFalling)
             {
                 balpic.Top += ballSpeed;  
@@ -42,14 +41,12 @@ namespace ball_bouncing_game
             else
             {
                 balpic.Top -= ballSpeed;  
-
                 if (balpic.Top <= 50)  
                 {
                     isFalling = true;
                 }
             }
         }
-
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             if (keyData == Keys.Space && isGameStarted && !isGameOver)
@@ -62,7 +59,6 @@ namespace ball_bouncing_game
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             isGameStarted = true;
@@ -74,7 +70,6 @@ namespace ball_bouncing_game
             timer1.Start();  
             label1.Text = "";  
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             timer1.Stop();
