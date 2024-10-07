@@ -9,19 +9,17 @@ namespace ConsoleApplication14
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("klavyeden girilen 5 sayının toplamını bulan program!");
+            Console.WriteLine("Program that finds the sum of 5 numbers entered from the keyboard!");
             Console.WriteLine("--------------------------------------------------------");
             int toplam=0;
             for (int a = 1; a < 6; a++)
             { 
-            Console.Write((a)+".sayıyı giriniz:");
+            Console.Write((a)+".enter the number:");
             int sayi = Convert.ToInt32(Console.ReadLine());
             toplam += sayi;
-             
             }
-            Console.WriteLine("Girdiğiniz 5 sayının toplamı:" + toplam);
+            Console.WriteLine("The sum of the 5 numbers you entered:" + toplam);
             Console.ReadKey();
-            
         }
     }
 }
