@@ -9,18 +9,14 @@ namespace ConsoleApplication4
     {
         static void Main(string[] args)
         {
-            /*Klavyeden girilen sayıdan sıfıra kadar olan sayıları 
-             * alt alta yazdıran program.*/
-            Console.WriteLine("Klavyeden girilen sayıdan sıfıra kadar olan sayıları  alt alta yazdıran program!");
+            Console.WriteLine("Program that prints numbers from zero to the number entered from the keyboard one below the other!");
             Console.WriteLine("----------------------------------------------------------------------");
             int sayı;
-            Console.Write("SAYI GİRİNİZ:");
+            Console.Write("ENTER A NUMBER:");
             sayı = Convert.ToInt32(Console.ReadLine());
             for (int a = sayı; a>=0; a--)
                 Console.WriteLine(a);
             Console.ReadKey();
-
         }
-        
     }
 }
