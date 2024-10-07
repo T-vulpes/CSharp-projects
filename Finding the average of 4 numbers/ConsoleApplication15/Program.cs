@@ -17,8 +17,6 @@ namespace ConsoleApplication15
                 Console.Write((a) + ".Sayıyı giriniz:");
                 double sayi = Convert.ToDouble(Console.ReadLine());
                 ort += sayi;
-            
-            
             }
             ort = ort / 4;
             Console.Write("Girdiğiniz 4 sayının ortalaması:" + ort);
