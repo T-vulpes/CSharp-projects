@@ -9,17 +9,17 @@ namespace ConsoleApplication15
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Klavyeden girilen 4 sayının ortalamasını bulan program!");
+            Console.WriteLine("Program that finds the average of 4 numbers entered from the keyboard!");
             Console.WriteLine("---------------------------------------------------");
             double ort = 0;
             for (double a = 1; a < 5; a++)
             {
-                Console.Write((a) + ".Sayıyı giriniz:");
+                Console.Write((a) + ".Enter the number:");
                 double sayi = Convert.ToDouble(Console.ReadLine());
                 ort += sayi;
             }
             ort = ort / 4;
-            Console.Write("Girdiğiniz 4 sayının ortalaması:" + ort);
+            Console.Write("Average of the 4 numbers you entered:" + ort);
             Console.ReadKey();
         }
     }
