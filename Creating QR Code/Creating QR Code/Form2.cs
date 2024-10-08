@@ -1,4 +1,6 @@
-﻿using System;
+// This form allows the user to generate a QR code based on input data and display it in a PictureBox.
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
