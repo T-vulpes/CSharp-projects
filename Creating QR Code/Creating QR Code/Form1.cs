@@ -14,9 +14,8 @@ using AForge.Video.DirectShow;
 using ZXing;
 using ZXing.Aztec;
 
-// This project captures video from a webcam and displays it in a PictureBox using the AForge library. 
-// It also sets up the functionality for reading and decoding QR codes from the video stream.
-//Main form page of this project
+// This form captures video from a webcam and decodes QR codes from the video stream, displaying the decoded data.
+
 namespace Creating_QR_Code
 {
     public partial class Form1 : Form
