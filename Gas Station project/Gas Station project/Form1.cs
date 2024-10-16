@@ -250,8 +250,7 @@ namespace Gas_Station_project
             System.IO.File.WriteAllLines(Application.StartupPath + "\\price.txt", priceinfo);
             txt_price_read();
             txt_price_write();
-        }
-             
+        }             
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -306,7 +305,6 @@ namespace Gas_Station_project
             numericUpDown5.Value = 0;
         }
 
-
         private void progressbar_update()
         {
             progressBar1.Value = Convert.ToInt16(d_gas95);
@@ -325,6 +323,7 @@ namespace Gas_Station_project
             numericUpDown4.Maximum = decimal.Parse(d_eurodiesel.ToString());
             numericUpDown5.Maximum = decimal.Parse(d_lpg.ToString());
         }
+        
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Text = "$ FUEL AUTOMATION $";
@@ -339,9 +338,6 @@ namespace Gas_Station_project
             txt_price_write();
             numericupdate();
             progressbar_update();
-
-
-
         }
     }
 }
