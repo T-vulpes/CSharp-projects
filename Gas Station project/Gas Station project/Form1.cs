@@ -32,9 +32,7 @@ namespace Gas_Station_project
             d_diesel = Convert.ToDouble(wrehoseinfo[2]);
             d_eurodiesel = Convert.ToDouble(wrehoseinfo[3]);
             d_lpg = Convert.ToDouble(wrehoseinfo[4]);
-
         }
-
         private void txt_write()
         {
             label6.Text = d_gas95.ToString("N");
