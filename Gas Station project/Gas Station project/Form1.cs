@@ -24,6 +24,7 @@ namespace Gas_Station_project
 
         string[] wrehoseinfo = new string[5];
         string[] priceinfo = new string[5];
+        
         private void txt_read()
         {
             wrehoseinfo = System.IO.File.ReadAllLines(Application.StartupPath + "\\gastank.txt");
@@ -33,6 +34,7 @@ namespace Gas_Station_project
             d_eurodiesel = Convert.ToDouble(wrehoseinfo[3]);
             d_lpg = Convert.ToDouble(wrehoseinfo[4]);
         }
+        
         private void txt_write()
         {
             label6.Text = d_gas95.ToString("N");
@@ -40,7 +42,6 @@ namespace Gas_Station_project
             label8.Text = d_diesel.ToString("N");
             label9.Text = d_eurodiesel.ToString("N");
             label10.Text = d_lpg.ToString("N");
-
         }
 
         private void txt_price_read()
@@ -51,8 +52,8 @@ namespace Gas_Station_project
             f_diesel = Convert.ToDouble(wrehoseinfo[2]);
             f_eurodiesel = Convert.ToDouble(wrehoseinfo[3]);
             f_lpg = Convert.ToDouble(wrehoseinfo[4]);
-
         }
+        
         private void txt_price_write()
         {
             label16.Text = f_gas95.ToString("N");
