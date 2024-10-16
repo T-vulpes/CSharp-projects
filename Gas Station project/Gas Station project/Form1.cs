@@ -125,82 +125,74 @@ namespace Gas_Station_project
                 e_gas95 = Convert.ToDouble(textBox1.Text);
                 if (1000 < e_gas95 + d_gas95 || e_gas95 <= 0)
                     textBox1.Text = "!Error!";
-
                 else
                     wrehoseinfo[0] = Convert.ToString(d_gas95 + e_gas95);
-
-
             }
+            
             catch (Exception)
             {
                 textBox1.Text = "Error";
             }
+            
             try
             {
                 e_gaso97 = Convert.ToDouble(textBox2.Text);
                 if (1000 < e_gaso97 + d_gaso97 || e_gaso97 <= 0)
                     textBox2.Text = "!Error!";
-
                 else
                     wrehoseinfo[1] = Convert.ToString(d_gaso97 + e_gaso97);
-
-
             }
             catch (Exception)
             {
                 textBox2.Text = "Error";
             }
+            
             try
             {
                 e_diesel = Convert.ToDouble(textBox3.Text);
                 if (1000 < e_diesel + d_diesel || e_diesel <= 0)
                     textBox3.Text = "!Error!";
-
                 else
                     wrehoseinfo[2] = Convert.ToString(d_diesel + e_diesel);
-
-
             }
             catch (Exception)
             {
                 textBox3.Text = "Error";
             }
+            
             try
             {
                 e_eurodiesel = Convert.ToDouble(textBox4.Text);
                 if (1000 < e_eurodiesel + d_eurodiesel || e_eurodiesel <= 0)
                     textBox4.Text = "!Error!";
-
                 else
                     wrehoseinfo[3] = Convert.ToString(d_eurodiesel + e_eurodiesel);
-
-
             }
             catch (Exception)
             {
                 textBox4.Text = "Error";
             }
+            
             try
             {
                 e_lpg = Convert.ToDouble(textBox5.Text);
                 if (1000 < e_lpg + d_lpg || e_lpg <= 0)
                     textBox5.Text = "!Error!";
-
                 else
                     wrehoseinfo[4] = Convert.ToString(d_lpg + e_lpg);
-
-
             }
             catch (Exception)
             {
                 textBox5.Text = "Error";
             }
+            
             System.IO.File.WriteAllLines(Application.StartupPath + "\\gastank.txt", wrehoseinfo);
             txt_read();
             txt_write();
             progressbar_update();
             numericupdate();
         }
+        
         private void button2_Click(object sender, EventArgs e)
         {
             try
