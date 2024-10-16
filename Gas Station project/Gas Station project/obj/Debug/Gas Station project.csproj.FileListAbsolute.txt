@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\Gas Station project\Gas Station project\bin\Debug\Gas Station project.exe.config
+C:\Users\admin\source\repos\Gas Station project\Gas Station project\bin\Debug\Gas Station project.exe
+C:\Users\admin\source\repos\Gas Station project\Gas Station project\bin\Debug\Gas Station project.pdb
+C:\Users\admin\source\repos\Gas Station project\Gas Station project\obj\Debug\Gas Station project.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Gas Station project\Gas Station project\obj\Debug\Gas_Station_project.Form1.resources
+C:\Users\admin\source\repos\Gas Station project\Gas Station project\obj\Debug\Gas_Station_project.Properties.Resources.resources
+C:\Users\admin\source\repos\Gas Station project\Gas Station project\obj\Debug\Gas Station project.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\Gas Station project\Gas Station project\obj\Debug\Gas Station project.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Gas Station project\Gas Station project\obj\Debug\Gas Station project.exe
+C:\Users\admin\source\repos\Gas Station project\Gas Station project\obj\Debug\Gas Station project.pdb
