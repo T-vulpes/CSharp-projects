@@ -127,8 +127,7 @@ namespace Gas_Station_project
                     textBox1.Text = "!Error!";
                 else
                     wrehoseinfo[0] = Convert.ToString(d_gas95 + e_gas95);
-            }
-            
+            }            
             catch (Exception)
             {
                 textBox1.Text = "Error";
@@ -204,6 +203,7 @@ namespace Gas_Station_project
             {
                 textBox10.Text = "Error";
             }
+            
             try
             {
                 f_gaso97 = f_gaso97 + (f_gaso97 * Convert.ToDouble(textBox9.Text) / 100);
@@ -213,6 +213,7 @@ namespace Gas_Station_project
             {
                 textBox9.Text = "Error";
             }
+            
             try
             {
                 f_diesel = f_diesel + (f_diesel * Convert.ToDouble(textBox8.Text) / 100);
@@ -222,6 +223,7 @@ namespace Gas_Station_project
             {
                 textBox8.Text = "Error";
             }
+            
             try
             {
                 f_eurodiesel = f_eurodiesel + (f_eurodiesel * Convert.ToDouble(textBox7.Text) / 100);
@@ -231,6 +233,7 @@ namespace Gas_Station_project
             {
                 textBox7.Text = "Error";
             }
+            
             try
             {
                 f_lpg = f_lpg + (f_lpg * Convert.ToDouble(textBox6.Text) / 100);
