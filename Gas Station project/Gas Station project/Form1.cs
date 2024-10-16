@@ -72,8 +72,8 @@ namespace Gas_Station_project
                 numericUpDown3.Enabled = false;
                 numericUpDown4.Enabled = false;
                 numericUpDown5.Enabled = false;
-
             }
+            
             if (comboBox1.Text == "gasoline (97)")
             {
                 numericUpDown1.Enabled = false;
@@ -82,6 +82,7 @@ namespace Gas_Station_project
                 numericUpDown4.Enabled = false;
                 numericUpDown5.Enabled = false;
             }
+            
             if (comboBox1.Text == "diesel")
             {
                 numericUpDown1.Enabled = false;
@@ -90,6 +91,7 @@ namespace Gas_Station_project
                 numericUpDown4.Enabled = false;
                 numericUpDown5.Enabled = false;
             }
+            
             if (comboBox1.Text == "euro diesel")
             {
                 numericUpDown1.Enabled = false;
@@ -98,6 +100,7 @@ namespace Gas_Station_project
                 numericUpDown4.Enabled = true;
                 numericUpDown5.Enabled = false;
             }
+            
             if (comboBox1.Text == "LPG")
             {
                 numericUpDown1.Enabled = false;
@@ -113,7 +116,6 @@ namespace Gas_Station_project
             numericUpDown4.Value = 0;
             numericUpDown5.Value = 0;
             label29.Text = "____________";
-
         }
 
         private void button1_Click(object sender, EventArgs e)
