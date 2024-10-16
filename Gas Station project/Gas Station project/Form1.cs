@@ -61,8 +61,8 @@ namespace Gas_Station_project
             label14.Text = f_diesel.ToString("N");
             label13.Text = f_eurodiesel.ToString("N");
             label12.Text = f_lpg.ToString("N");
-
         }
+        
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if(comboBox1.Text == "gasoline (95)")
