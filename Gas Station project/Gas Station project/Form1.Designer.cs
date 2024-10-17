@@ -1,5 +1,4 @@
-﻿
-namespace Gas_Station_project
+﻿namespace Gas_Station_project
 {
     partial class Form1
     {
