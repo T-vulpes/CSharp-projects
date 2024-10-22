@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\Dictionary Project\Dictionary Project\bin\Debug\Dictionary Project.exe.config
+C:\Users\admin\source\repos\Dictionary Project\Dictionary Project\bin\Debug\Dictionary Project.exe
+C:\Users\admin\source\repos\Dictionary Project\Dictionary Project\bin\Debug\Dictionary Project.pdb
+C:\Users\admin\source\repos\Dictionary Project\Dictionary Project\obj\Debug\Dictionary Project.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Dictionary Project\Dictionary Project\obj\Debug\Dictionary_Project.Form1.resources
+C:\Users\admin\source\repos\Dictionary Project\Dictionary Project\obj\Debug\Dictionary_Project.Properties.Resources.resources
+C:\Users\admin\source\repos\Dictionary Project\Dictionary Project\obj\Debug\Dictionary Project.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\Dictionary Project\Dictionary Project\obj\Debug\Dictionary Project.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Dictionary Project\Dictionary Project\obj\Debug\Dictionary Project.exe
+C:\Users\admin\source\repos\Dictionary Project\Dictionary Project\obj\Debug\Dictionary Project.pdb
