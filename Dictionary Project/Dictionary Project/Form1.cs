@@ -32,9 +32,7 @@ namespace Dictionary_Project
 
             try
             {
-                // Open the connection
                 connection.Open();
-
                 OleDbCommand add = new OleDbCommand("INSERT INTO engtur (English, Turkish) VALUES (@English, @Turkish)", connection);
                 add.Parameters.AddWithValue("@English", textBox1.Text);
                 add.Parameters.AddWithValue("@Turkish", textBox2.Text);
@@ -56,7 +54,6 @@ namespace Dictionary_Project
             }
         }
 
-        // Update the word in the database
         private void button2_Click(object sender, EventArgs e)
         {
             if (connection == null)
@@ -64,7 +61,6 @@ namespace Dictionary_Project
                 MessageBox.Show("Connection could not be initialized.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-
             try
             {
                 connection.Open();
