@@ -110,17 +110,13 @@ namespace Dictionary_Project
 
             try
             {
-                // Open the connection
                 connection.Open();
 
-                // Use parameterized query for the delete operation
                 OleDbCommand delete = new OleDbCommand("DELETE FROM engtur WHERE English = @English", connection);
                 delete.Parameters.AddWithValue("@English", textBox1.Text);
 
-                // Execute the delete query
                 int rowsAffected = delete.ExecuteNonQuery();
 
-                // Notify the user if the deletion was successful
                 if (rowsAffected > 0)
                 {
                     MessageBox.Show("Word deleted from the database");
@@ -130,18 +126,15 @@ namespace Dictionary_Project
                     MessageBox.Show("No word found to delete");
                 }
 
-                // Clear the text fields
                 textBox1.Clear();
                 textBox2.Clear();
             }
             catch (Exception ex)
             {
-                // Show error message
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
-                // Close the connection if it's open
                 if (connection.State == System.Data.ConnectionState.Open)
                 {
                     connection.Close();
@@ -149,15 +142,12 @@ namespace Dictionary_Project
             }
         }
 
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             try
             {
                 listBox1.Items.Clear();
                 connection.Open();
-
-                // Use parameterized query for safety
                 OleDbCommand searchcm = new OleDbCommand("SELECT English, Turkish FROM engtur WHERE English LIKE @English", connection);
                 searchcm.Parameters.AddWithValue("@English", textBox1.Text + "%");
 
@@ -185,8 +175,6 @@ namespace Dictionary_Project
             {
                 listBox1.Items.Clear();
                 connection.Open();
-
-                // Query to load all words
                 OleDbCommand loadAll = new OleDbCommand("SELECT English, Turkish FROM engtur", connection);
                 OleDbDataReader read = loadAll.ExecuteReader();
 
