@@ -1,0 +1,12 @@
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\bin\Debug\Personnel Tracking Program.exe.config
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\bin\Debug\Personnel Tracking Program.exe
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\bin\Debug\Personnel Tracking Program.pdb
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\obj\Debug\Personnel Tracking Program.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\obj\Debug\Personnel_Tracking_Program.Form1.resources
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\obj\Debug\Personnel_Tracking_Program.Properties.Resources.resources
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\obj\Debug\Personnel Tracking Program.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\obj\Debug\Personnel Tracking Program.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\obj\Debug\Personnel Tracking Program.exe
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\obj\Debug\Personnel Tracking Program.pdb
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\obj\Debug\Personnel_Tracking_Program.Form2.resources
+C:\Users\admin\source\repos\Personnel Tracking Program\Personnel Tracking Program\obj\Debug\Personnel_Tracking_Program.Form3.resources
