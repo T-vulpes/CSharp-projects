@@ -1,6 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
 VisualStudioVersion = 16.0.33328.57
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personnel Tracking Program", "Personnel Tracking Program\Personnel Tracking Program.csproj", "{93C77EA6-2466-46AF-B45E-C12BC041F45E}"
