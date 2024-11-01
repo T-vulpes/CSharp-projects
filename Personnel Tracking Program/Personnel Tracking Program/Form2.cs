@@ -454,11 +454,11 @@ namespace Personnel_Tracking_Program
                 }
                 else
                 {
-                    searchread.Close(); // Kayıt bulunmazsa da DataReader'ı kapatıyoruz
+                    searchread.Close(); 
                     MessageBox.Show("No records found to delete!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
 
-                connect.Close(); // Bağlantıyı yalnızca burada kapatıyoruz
+                connect.Close();
             }
             else
             {
