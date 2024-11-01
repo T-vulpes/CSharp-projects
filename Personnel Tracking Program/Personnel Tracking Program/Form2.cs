@@ -409,12 +409,12 @@ namespace Personnel_Tracking_Program
                     OleDbCommand update = new OleDbCommand(
                         "UPDATE [staff] SET [name] = ?, [surname] = ?, [authority] = ?, [username] = ?, [password] = ? WHERE [ID] = ?", connect);
 
-                    update.Parameters.AddWithValue("?", textBox2.Text);  // name
-                    update.Parameters.AddWithValue("?", textBox3.Text);  // surname
-                    update.Parameters.AddWithValue("?", auth);           // authority
-                    update.Parameters.AddWithValue("?", textBox4.Text);  // username
-                    update.Parameters.AddWithValue("?", textBox5.Text);  // password
-                    update.Parameters.AddWithValue("?", textBox1.Text); // ID, güncellenecek kaydın kimliği
+                    update.Parameters.AddWithValue("?", textBox2.Text);  
+                    update.Parameters.AddWithValue("?", textBox3.Text); 
+                    update.Parameters.AddWithValue("?", auth);           
+                    update.Parameters.AddWithValue("?", textBox4.Text);  
+                    update.Parameters.AddWithValue("?", textBox5.Text);  
+                    update.Parameters.AddWithValue("?", textBox1.Text); 
 
                     update.ExecuteNonQuery();
                     connect.Close();
